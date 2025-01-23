@@ -1,0 +1,52 @@
+# Билд-директории CMake
+build/
+out/
+cmake-build-*/
+
+# Файлы CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+*.cmake
+*.user
+*.vcxproj*
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Исполняемые файлы и библиотеки
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.obj
+*.o
+*.ilk
+*.pdb
+
+# Файлы IDE
+.vscode/
+.idea/
+*.iml
+
+# Локальные настройки и временные файлы
+*.local
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы данных программы (если нужно)
+tasks.txt
